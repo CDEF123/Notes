@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Notes & Draw App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Colorful Notes & Draw</h1>
+    
+    <!-- Notes Section -->
+    <div class="notes-section">
+      <textarea id="noteText" placeholder="Write your notes here..."></textarea>
+      <button id="saveNote">Save Note</button>
+      <button id="downloadNote">Download Note</button>
+      <button id="loadNote">Load Note</button>
+      <button id="clearNote">Clear Note</button>
+    </div>
+    
+    <!-- Drawing Canvas -->
+    <div class="drawing-section">
+      <canvas id="drawingCanvas"></canvas>
+      <button id="clearCanvas">Clear Drawing</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
